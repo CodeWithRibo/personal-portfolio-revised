@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 8vh;
+  background: #1e3e62;
+}
+.list-section ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+ul li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+}
+.logo-name h1 {
+    color: white;
+}
